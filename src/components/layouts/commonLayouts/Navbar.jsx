@@ -10,7 +10,7 @@ const Navbar = () => {
         <img src={logo} alt="logo" />
       </div>
       <div className='flex justify-between'>
-        <ul className='flex gap-12'>
+        <ul className='flex gap-12 items-center'>
           <li>
             <Link className="text-white">
               <FaBars />
@@ -18,6 +18,12 @@ const Navbar = () => {
           </li>
           <li>
             <Link className="text-white font-poppins font-bold text-sm">Careers</Link>
+          </li>
+          <li>
+            <Link className="text-white font-poppins font-bold text-sm">Store</Link>
+          </li>
+          <li>
+            <Link className="text-white font-poppins font-bold text-sm">FAQ</Link>
           </li>
         </ul>
       </div>

@@ -16,7 +16,7 @@ const CommonLayout = ({left,cover,children}) => {
                       {children}
                   </div>
               </div>
-              <div className='w-[5%] h-screen bg-cyan-600'><RightSidebar/></div>
+              <div className='w-[5%] h-screen'><RightSidebar/></div>
       </div>
     </div>
   );
