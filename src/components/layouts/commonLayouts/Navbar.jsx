@@ -10,7 +10,7 @@ import SettingsIcon from "../../../icons/SettingsIcon";
 
 const Navbar = () => {
   return (
-    <div className="bg-blue flex gap-[174px] py-5 px-6">
+    <div className="bg-blue flex justify-between py-5 px-6">
       {/* logo */}
       <div>
         <img src="/logo.png" alt="logo" />
